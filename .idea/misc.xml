@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/drawable/item_border.xml" value="0.1045" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/drawable/item_under_line.xml" value="0.142" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/drawable/vote_item.xml" value="0.14" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/activity_creation.xml" value="0.21" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/activity_login.xml" value="0.21" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/activity_rank.xml" value="0.16666666666666666" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/activity_read.xml" value="0.21" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/activity_register.xml" value="0.16666666666666666" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/activity_search.xml" value="0.16666666666666666" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/activity_type.xml" value="0.16666666666666666" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/activity_vote.xml" value="0.21" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/chapter_item.xml" value="0.25" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/fragment_home.xml" value="0.17074275362318841" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/h_list_item.xml" value="0.21" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/rank_item.xml" value="0.21" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/slide_item.xml" value="0.18" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/type_item.xml" value="0.25" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/v_list_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/layout/vote_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Deadline/ADR/app/app/src/main/res/menu/nav_menu.xml" value="0.22447916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

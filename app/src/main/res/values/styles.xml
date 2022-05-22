@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="search_style">
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="rating_bar">
+        <item name="colorControlActivated">#FFEB3B</item>
+        <item name="colorControlNormal">@color/gray</item>
+    </style>
+</resources>

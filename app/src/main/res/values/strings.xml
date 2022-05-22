@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">kapp</string>
+    <string-array name="font_list">
+        <item>Nhỏ</item>
+        <item>Vừa</item>
+        <item>Lớn</item>
+    </string-array>
+    <string-array name="color_list">
+        <item>Đen</item>
+        <item>Xám</item>
+        <item>Xanh dương</item>
+    </string-array>
+</resources>

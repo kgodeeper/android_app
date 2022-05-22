@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@color/light_gray"
+tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:id="@+id/home_header"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/thuvien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Thư viện"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingVertical="5dp"/>
+    <TextView
+        android:id="@+id/home_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:drawableRight="@drawable/ic_baseline_search_24"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="5dp"
+        android:drawableTint="@color/black"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/home_udl_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:background="#33333320"
+        android:layout_height="1dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:id="@+id/home_content"
+        app:layout_constraintTop_toBottomOf="@id/home_header"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/home_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                <me.relex.circleindicator.CircleIndicator3
+                    android:id="@+id/home_indicator"
+                    android:layout_width="match_parent"
+                    app:ci_height="5dp"
+                    app:ci_width="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_height="40dp"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:paddingVertical="10dp"
+                android:background="@color/white">
+                    <TextView
+                        android:id="@+id/home_cate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawableTop="@drawable/ic_baseline_list_alt_24"
+                        android:drawableTint="@color/primary"
+                        android:gravity="center"
+                        android:text="Thể loại"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/home_rank"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/home_rank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawableTop="@drawable/ic_ranking_star_solid"
+                        android:drawableTint="@color/primary"
+                        android:gravity="center"
+                        android:text="Xếp hạng"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/home_cate"
+                        app:layout_constraintEnd_toStartOf="@+id/home_news"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/home_cate"
+                        app:layout_constraintTop_toTopOf="@+id/home_cate" />
+
+                    <TextView
+                        android:id="@+id/home_news"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:drawableTop="@drawable/ic_newspaper_solid"
+                        android:drawableTint="@color/primary"
+                        android:gravity="center"
+                        android:text="Tin tức"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/home_rank"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/home_rank"
+                        app:layout_constraintTop_toTopOf="@+id/home_rank" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout
+                android:background="@color/white"
+                android:paddingVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textAllCaps="true"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:text="Truyện đề cử"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_suggest"/>
+            </LinearLayout>
+            <LinearLayout
+                android:background="@color/white"
+                android:paddingVertical="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textAllCaps="true"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/black"
+                    android:text="Truyện mới cập nhật"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="30dp"
+                    android:nestedScrollingEnabled="false"
+                    android:isScrollContainer="false"
+                    android:id="@+id/home_new_update"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

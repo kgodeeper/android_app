@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Thư viện"
+        android:icon="@drawable/ic_baseline_book_24"
+        android:id="@+id/nav_lib"/>
+    <item
+        android:title="Tủ sách"
+        android:icon="@drawable/ic_bookshelf_svgrepo_com"
+        android:id="@+id/nav_book"/>
+    <item
+        android:title="Tài khoản"
+        android:icon="@drawable/ic_user_solid"
+        android:id="@+id/nav_acc"/>
+</menu>
